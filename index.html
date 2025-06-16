@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bubble Game</title>
+  <link rel="stylesheet" href="front.css">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <div id="box">
+      <h1>Bubble Game</h1>
+      <p>
+        Welcome to the Bubble Game!<br>
+        Your goal is to click on the bubble that matches the given number.<br><br>
+        Correct hit = 10 points<br>
+        Wrong hit = -5 points<br><br>
+        Good luck!
+      </p>
+  <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <div id="developer">
+    <h2>Developer:Karan Bawa</h2>
+  </div>
+
+  <div id="footer">
+    <div id="social_btn">
+        <a href="https://www.linkedin.com/in/karan-bawa-3a2366304/" target="_blank"><i class="ri-linkedin-line"></i></a>
+        <a href="https://www.instagram.com/karan_bawa.02/" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://github.com/karanbawa1" target="_blank"><i class="ri-github-line"></i></a>
+    </div>
+  </div>
+
+  <script>
+    function startGame() {
+      window.location.href = "game.html";
+    }
+  </script>
+</body>
+</html>
